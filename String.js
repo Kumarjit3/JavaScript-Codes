@@ -48,4 +48,12 @@ let lastName = "Mongal";
  console.log(str.slice(-3,7));    //this method works same as subString but it support negative value arguments 
 
  //10
- console.log(str.includes("M"));  //this method actually work same as search() method
+ console.log(str.includes("Kumar"));  //this method actually work same as search() method
+
+ //11
+const url = "https://kumarjit.com/kumar%30Mongal";
+console.log(url.replace('%30','%33'));    //this metho basically replace some portion of a string and add a new portion there
+
+//12
+const Name = "This Is My Real Name That Is Kumarjit Mongal";
+console.log(Name.split(" "));             //this method basically separate string according to argument 
